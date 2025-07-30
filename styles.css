@@ -8,7 +8,7 @@
 body.main {
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(191, 196, 191, 0.5) 100%), 
-                url(/images/heidelberg.jpg);
+                url(images/heidelberg.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -17,7 +17,7 @@ body.main {
 body.location-page {
   min-height: 100vh;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(191, 196, 191, 0.5)),
-              url(/images/darsberg.png);
+              url(images/darsberg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body.location-page {
 
 body.timetable-page {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(191, 196, 191, 0.5)),
-              url(/images/51140015.JPG);
+              url(images/51140015.JPG);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body.timetable-page {
 body.team-page {
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(191, 196, 191, 0.5) 100%), 
-                url(/images/heidelberg.jpg);
+                url(images/heidelberg.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -486,7 +486,7 @@ transition: all 0.3s ease
   top: 4px;
   width: 24px;
   height: 24px;
-  background-image: url('/images/icons/paw.png'); /* replace as needed */
+  background-image: url('images/icons/paw.png'); /* replace as needed */
   background-size: contain;
   background-repeat: no-repeat;
 }
