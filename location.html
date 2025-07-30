@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Location</title>
+  <link rel="stylesheet" href="styles.css" />
+
+ <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body class="location-page">
+
+  <div class="language-selector">
+            <img src="images/de.png" alt="Deutsch" onclick="switchLanguage('de')" />
+            <img src="images/pl.png" alt="Polski" onclick="switchLanguage('pl')" />
+            <img src="images/um.png" alt="English" onclick="switchLanguage('en')" />
+          </div>
+        
+         <nav class="navbar">
+            <div class="navbar__container">
+                <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/index.html" class=navbar__links data-key="home">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/wissenswertes.html"  class=navbar__links  data-key="info">Wissenswertes</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/time-table.html"  class=navbar__links  data-key="schedule">Ablauf</a>
+                </li>     
+                                <li class="navbar__item">
+                    <a href="/"  class=navbar__links  data-key="team">Team</a>
+                </li>             
+               
+            </ul>
+         </nav>
+
+
+<script src="app.js" ></script>
+  <!-- Main content -->
+
+  <div class="location-content">
+
+  <h1 class="main-heading" data-key="location-heading">Wo müsst ihr hin?</h1>
+
+  <p class="address" data-key="location-description">
+    Die Adresse lautet:<br>
+    Außerhalb 1<br>
+    69239 Neckarsteinach<br><br>
+  </p>
+    <h1 data-key="location-car-heading">Anreise mit dem Auto<br></h1>
+
+    <p data-key="location-car">
+      Ihr könnt im Navi als Ziel die Darsbergerstr. 127 eingeben.<br>
+      Ihr seht dann auf der linken Seite die Einfahrt.
+      Es werden reichlich Parkplätze zur Verfügung stehen.
+      Die Location bietet darüberhinaus Schlafplätze. Falls ihr gerne über Nacht bleiben wollt, gebt und über die Umfrage Bescheid
+    </p>
+
+    <h1 data-key="location-car-heading">Anreise mit der Bahn<br></h1>
+
+    <p data-key="location-car">
+      Wenn Ihr mit den öffentlichen Verkehrsmitteln anreisen wollt, könnt ihr die S-Bahnen (S1 und S2) nach Neckarsteinach nehmen.
+      Gebt uns aber gerne Bescheid, damit wir euch helfen können, komfortabel zur Location zu kommen. 
+    </p>
+
+  </div>
+
+  <!-- Language logic -->
+  <script src="lang.js"></script>
+  <script>
+    const lang = localStorage.getItem("lang") || "de";
+    setLanguage(lang);
+  </script>
+</body>
+</html>

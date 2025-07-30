@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title data-key="team-title">Team</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="team-page">
+
+  <div class="language-selector">
+    <img src="images/de.png" alt="Deutsch" onclick="switchLanguage('de')" />
+    <img src="images/pl.png" alt="Polski" onclick="switchLanguage('pl')" />
+    <img src="images/um.png" alt="English" onclick="switchLanguage('en')" />
+  </div>
+
+  <nav class="navbar">
+    <div class="navbar__container">
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="/location.html" class="navbar__links" data-key="location">Location</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/wissenswertes.html" class="navbar__links" data-key="info">Wissenswertes</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/time-table.html" class="navbar__links" data-key="schedule">Ablauf</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/team.html" class="navbar__links" data-key="team">Team</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script src="app.js"></script>
+
+  <section class="team-section">
+  <div class="team-intro-box">
+  <h2 class="team-heading" data-key="team-heading">Unser Team</h2>
+  <p class="team-subtext" data-key="team-intro">
+    Wir können uns sehr glücklich schätzen, von unseren Trauzeuginnen begleitet zu werden.
+  </p>
+</div>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="https://placehold.co/300x300" alt="Person">
+        <h3 data-key="member1-name">??</h3>
+        <p class="role" data-key="member1-role">Position 1</p>
+        <p data-key="member1-desc">Kurze Beschreibung oder Aufgabe im Team.</p>
+      </div>
+
+      <div class="team-member">
+        <img src="/images/Steffi.jpg" alt="Steffi">
+        <h3 data-key="member2-name">Steffi</h3>
+        <p class="role" data-key="member2-role">HR-Manager & Angezintelt</p>
+        <p data-key="member2-desc">Steffi ist unsere</p>
+      </div>
+
+      <div class="team-member">
+        <img src="https://placehold.co/300x300" alt="Wiebke">
+        <h3 data-key="member3-name">Wiebke</h3>
+        <p class="role" data-key="member3-role">Creative Director</p>
+        <p data-key="member3-desc">Ihr</p>
+      </div>
+
+      <div class="team-member">
+        <img src="/images/Wiebke.jpg" alt="Name 4">
+        <h3 data-key="member4-name">Name 4</h3>
+        <p class="role" data-key="member4-role">Position 4</p>
+        <p data-key="member4-desc">Kurze Beschreibung oder Aufgabe im Team.</p>
+      </div>
+
+      <div class="team-member">
+        <img src="https://placehold.co/300x300" alt="Milena">
+        <h3 data-key="member5-name">Milena</h3>
+        <p class="role" data-key="member5-role">Musik &</p>
+        <p data-key="member5-desc">Kurze Beschreibung oder Aufgabe im Team.</p>
+      </div>
+
+      <div class="team-member">
+        <img src="https://placehold.co/300x300" alt="Name 6">
+        <h3 data-key="member6-name">Name 6</h3>
+        <p class="role" data-key="member6-role">Position 6</p>
+        <p data-key="member6-desc">Kurze Beschreibung oder Aufgabe im Team.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

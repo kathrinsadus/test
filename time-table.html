@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title data-key="page-title">Time table</title>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="timetable-page">
+    <div class="language-selector">
+        <img src="images/de.png" alt="Deutsch" onclick="switchLanguage('de')" />
+        <img src="images/pl.png" alt="Polski" onclick="switchLanguage('pl')" />
+        <img src="images/um.png" alt="English" onclick="switchLanguage('en')" />
+    </div>
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/index.html" class="navbar__links" data-key="home">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/location.html" class="navbar__links" data-key="location">Location</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/wissenswertes.html" class="navbar__links" data-key="info">Wissenswertes</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/team.html" class="navbar__links" data-key="team">Team</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="schedule">
+        <h2 data-key="schedule-heading">Ablauf</h2>
+        <div class="timeline">
+
+        <div class="pre-event special-highlight">
+            <div class="time">Freitag</div>
+            <div class="details">
+                <h3 data-key="event-arrival-title">Beisammen sein</h3>
+                <p data-key="event-arrival-text">
+                    Für diejenigen, die bereits am Freitag anreisen, planen wir ein kleines Beisammen sein. <br>
+                    Ort und Uhrzeit werden wir noch hier veröffentlichen.
+                </p>
+            </div>
+        </div>
+
+            <div class="event">
+                <div class="time">14:00</div>
+                <div class="icon">
+                    <img src="images/icons/Cat_arrival.png" alt="Empfang">
+                </div>
+                <div class="details">
+                    <h3 data-key="event-arrival-title">Empfang</h3>
+                    <p data-key="event-arrival-text">Kommt pünktlich damit wir die Zeit mit euch genießen können.</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="time">15:00</div>
+                <div class="icon">
+                    <img src="images/icons/cat_marriage.png" alt="Trauung">
+                </div>
+                <div class="details">
+                    <h3 data-key="event-ceremony-title">Trauung</h3>
+                    <p data-key="event-ceremony-text">Die Zeremonie findet im Garten statt.</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="time">15:45</div>
+                <div class="icon">
+                    <img src="images/icons/cat_drunk.png" alt="Sektempfang">
+                </div>
+                <div class="details">
+                    <h3 data-key="event-reception-title">Sektempfang</h3>
+                    <p data-key="event-reception-text">Fotos mit dem Brautpaar und unterhaltsame Aktivitäten.</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="time">18:00</div>
+                <div class="icon">
+                    <img src="images/icons/cat_drunker.png" alt="Abendessen">
+                </div>
+                <div class="details">
+                    <h3 data-key="event-dinner-title">Abendessen</h3>
+                    <p data-key="event-dinner-text">Buffet mit vegetarischen und veganen Optionen.</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="time">21:00</div>
+                <div class="icon">
+                    <img src="images/icons/cat_party.png" alt="Party">
+                </div>
+                <div class="details">
+                    <h3 data-key="event-party-title">Tanz & Party</h3>
+                    <p data-key="event-party-text">Sacred Cats collective</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="time">00:02</div>
+                <div class="icon">
+                    <img src="images/icons/cat_party2.png" alt="Party 2.0">
+                </div>
+                <div class="details">
+                    <h3 data-key="event-party2-title">Party 2.0</h3>
+                    <p data-key="event-party2-text"></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script src="lang.js"></script>
+    <script>
+        const lang = localStorage.getItem("lang") || "de";
+        setLanguage(lang);
+    </script>
+</body>
+</html>
