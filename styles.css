@@ -8,7 +8,7 @@
 body.main {
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(191, 196, 191, 0.5) 100%), 
-                url(images/heidelberg.jpg);
+                url('https://raw.githubusercontent.com/kathrinsadus/test/main/images/heidelberg.jpg');
     background-position: center;
     background-size: cover;
     height: 109vh;
