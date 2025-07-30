@@ -267,10 +267,22 @@ transition: all 0.3s ease
 
 }
 
-.location-content p:last-child {
-  font-style: italic;
-  color: #444;
+@media (max-width: 500px) {
+  .location-content {
+    width: 95%;
+    padding: 15px;
+    font-size: 0.95rem;
+  }
+
+  .location-content h1 {
+    font-size: 1rem;
+  }
+
+  .location-content p {
+    font-size: 0.9rem;
+  }
 }
+
 
 .team-intro-box {
   background: rgba(255, 255, 255, 0.8);
