@@ -103,7 +103,7 @@ body.timetable-page {
   min-height: 100svh;
   background:
     linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(191, 196, 191, 0.5)),
-    url(images/51140015.jpg); /* make sure the case matches the file */
+    url(images/51140015.JPG); /* make sure the case matches the file */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
