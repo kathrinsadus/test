@@ -12,21 +12,23 @@ const translations = {
     // welcome (falls auf Startseite genutzt)
     "welcome-heading": "Hallo, willkommen!",
     "welcome-text":
-                    `Wir freuen uns sehr, dass du am 18. April 2026 mit uns feiern wirst.
-                    Auf dieser Website findest du alle wichtigen Informationen: vom Ablauf über die Location bis zu Anreise- und Übernachtungsmöglichkeiten. Wir aktualisieren die Inhalte regelmäßig, damit du immer auf dem neuesten Stand bist.
+                    `Wir freuen uns sehr, dass du am 18. April 2026 mit uns feiern wirst.<br>
+                    Auf dieser Website findest du alle wichtigen Informationen: vom Ablauf über die Location bis zu Anreise- und Übernachtungsmöglichkeiten.
                     Schau also gerne immer mal wieder vorbei.
-                    Und falls du Fragen hast, melde dich einfach bei uns, wir helfen gerne weiter.
-                    Wir können es kaum erwarten, unsere Hochzeit mit euch zu feiern!
-                    Eure Mäuse Kathrin & Fabian`,
+                    Und falls du Fragen hast, melde dich einfach bei uns, wir helfen gerne weiter.<br>
+                    Wir können es kaum erwarten, unsere Hochzeit mit euch zu feiern!<br><br>
+                    <b>Eure Mäuse, Kathrin & Fabian</b>`,
     // location page
     "location-heading": "Wo müsst ihr hin?",
     "location-description": `Die Adresse lautet:<br>
-      Außerhalb 1<br>
-      69239 Neckarsteinach
-      <a href="https://tour.hoher-darsberg.de/" target="_blank" rel="noopener">Hier</a> könnt ihr euch die Location auch einmal ansehen.<br><br>`,
+    Außerhalb 1 <br>
+    69239 Neckarsteinach <br><br>
+    Ihr könnt euch die <a class=intext_link href="https://tour.hoher-darsberg.de/">Location </a>vorab gerne einmal ansehen.<br>`,
     "location-car-heading": "Anreise mit dem Auto<br>",
     "location-car":
-      "Ihr könnt im Navi als Ziel die Darsbergerstr. 127 eingeben. Ihr seht dann auf der linken Seite die Einfahrt. Es werden reichlich Parkplätze zur Verfügung stehen. Die Location bietet darüber hinaus Schlafplätze. Falls ihr gerne über Nacht bleiben wollt, gebt uns über die Umfrage Bescheid.",
+    `Gebt im Navi als Ziel am <b>besten Darsbergerstraße 127</b> ein.
+      Die Einfahrt befindet sich auf der linken Seite. Es stehen reichlich Parkplätze zur Verfügung.
+      Die Location bietet außerdem Schlafplätze an. Falls ihr gerne über Nacht bleiben möchtet, gebt uns bitte über die Umfrage Bescheid, damit wir entsprechend planen können.`,
     "location-bus-heading": "Anreise mit der Bahn<br>",
     "location-bus":
       "Wenn ihr mit den öffentlichen Verkehrsmitteln anreisen wollt, könnt ihr die S-Bahnen (S1 und S2) nach Neckarsteinach nehmen. Gebt uns gerne Bescheid, damit wir euch helfen können, komfortabel zur Location zu kommen."

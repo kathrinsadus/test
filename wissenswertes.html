@@ -41,19 +41,44 @@
             </ul>
          </nav>
 
+    <div class="fancy-box">
+        <h1 class="main-heading" data-key="information-heading">
+            Was gibt es noch zu beachten?
+        </h1>
+        <p class="info-subtext" data-key="info-intro"> Damit ihr bestens vorbereitet seid, haben wir hier ein paar Infos für euch gesammelt:</p>
 
-  <div class="fancy-box">
-    <h1 class="main-heading" data-key="information-heading">Was gibt es noch zu beachten?</h1>
+        <ul class="fancy-list">
+                    <li>
+                        <strong>Fragebogen:</strong> Wir haben ein kurzes Formular vorbereitet – bitte nehmt euch einen Moment dafür.
+                        Darin wollen wir nur wissen:
+                        <ul>
+                            <li>Kommt ihr?</li>
+                            <li>Bleibt ihr über Nacht?</li>
+                            <li>Gibt es beim Essen etwas zu beachten?</li>
+                        </ul>
+                        Vielen Dank fürs Ausfüllen – so können wir optimal planen.
+                    </li>
+                    <li>
+                        <strong>Übernachtung vor Ort:</strong> Unsere Location hat gemütliche Zimmer – perfekt, um nach der Feier einfach ins Bett zu fallen.
+                        Wenn ihr übernachten möchtet, sagt uns das im Fragebogen, dann kümmern wir uns um die Reservierung.
+                    </li>
+                    <li>
+                        <strong>Parkplätze:</strong> An der Location stehen ausreichend Parkplätze zur Verfügung.
+                    </li>
+            <li>
+                <strong>Essen &amp; Getränke:</strong> Wir möchten, dass für jede und jeden etwas Passendes dabei ist.
+                Im Fragebogen könnt ihr angeben, ob ihr vegetarisch, vegan esst oder bestimmte Unverträglichkeiten und Allergien habt.
+                So kann die Küche bestens vorbereitet werden.
+            </li>
+        </ul>
+    </div>
 
-      <ul class="fancy-list">
-        <li>Parkplätze direkt an der Location</li>
-        <li>Übernachtungsmöglichkeiten verfügbar</li>
-        <li>Veganes Essen auf Anfrage</li>
-      </ul>
-</div>
 
-<script src="app.js" ></script>
-
-
+    <script src="app.js"></script>
+    <script src="lang.js"></script>
+    <script>
+        const lang = localStorage.getItem("lang") || "de";
+        setLanguage(lang);
+    </script>
 </body>
 </html>
