@@ -12,8 +12,12 @@ const translations = {
     // welcome (falls auf Startseite genutzt)
     "welcome-heading": "Hallo, willkommen!",
     "welcome-text":
-      "Wir freuen uns sehr, dass du zu unserer Hochzeit kommst! Diese Website hält nützliche Informationen bereit und wird auch entsprechend geupdatet. Falls ihr Fragen haben solltet, meldet euch gerne bei uns. Wir können es kaum erwarten!",
-
+                    `Wir freuen uns sehr, dass du am 18. April 2026 mit uns feiern wirst.
+                    Auf dieser Website findest du alle wichtigen Informationen: vom Ablauf über die Location bis zu Anreise- und Übernachtungsmöglichkeiten. Wir aktualisieren die Inhalte regelmäßig, damit du immer auf dem neuesten Stand bist.
+                    Schau also gerne immer mal wieder vorbei.
+                    Und falls du Fragen hast, melde dich einfach bei uns, wir helfen gerne weiter.
+                    Wir können es kaum erwarten, unsere Hochzeit mit euch zu feiern!
+                    Eure Mäuse Kathrin & Fabian`,
     // location page
     "location-heading": "Wo müsst ihr hin?",
     "location-description": `Die Adresse lautet:<br>
