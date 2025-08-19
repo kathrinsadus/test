@@ -80,7 +80,7 @@ const translations = {
       Aktualne informacje będą zamieszczane na stronie, dlatego warto tu zaglądać ponownie<br>
       Jeśli masz pytania, po prostu daj nam znać, z radością pomożemy.<br>
        Nie możemy się już doczekać wspólnego świętowania naszego ślubu!<br><br>
-       <b>Wasze myszki, Kathrin & Fabian</b>`,
+       <b>Kathrin & Fabian</b>`,
 
     // location page
     "location-heading": "Dokąd powinniście iść?",
