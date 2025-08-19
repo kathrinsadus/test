@@ -66,7 +66,7 @@ const translations = {
      We can hardly wait to celebrate our wedding with you!<br><br>
      <b>Kathrin & Fabian</b>`,
 
-    // location page (mirrors DE)
+    // location page
     "location-heading": "Where should you go?",
     "location-description": `The address is:<br>
       Außerhalb 1 <br>
@@ -114,7 +114,7 @@ const translations = {
       Nie możemy się już doczekać wspólnego świętowania naszego ślubu!<br><br>
       <b>Kathrin &amp; Fabian</b>`,
 
-    // location page (mirrors DE)
+    // location page
     "location-heading": "Dokąd powinniście iść?",
     "location-description": `Adres:<br>
       Außerhalb 1 <br>
@@ -123,6 +123,7 @@ const translations = {
     "location-car-heading": "Dojazd samochodem<br>",
     "location-car": `W nawigacji najlepiej wpisać <b>Darsbergerstraße 127</b>.
       Wjazd znajduje się po lewej stronie. Na miejscu jest dużo miejsc parkingowych.
+      Obiekt oferuje też noclegi — jeśli chcesz zostać na noc, daj znać w ankiecie.`,
     "location-bus-heading": "Dojazd koleją<br>",
     "location-bus": "Możecie dojechać kolejką S-Bahn (S1 lub S2) do Neckarsteinach. Dajcie nam znać, a pomożemy wygodnie dotrzeć na miejsce.",
 
