@@ -44,7 +44,12 @@ const translations = {
     // welcome
     "welcome-heading": "Hi, welcome!",
     "welcome-text":
-      "We are so happy you're coming to our wedding! This website will keep useful info and updates. If you have any questions, feel free to contact us. We can't wait!",
+     `We are so happy that you will celebrate with us on April 18, 2026.<br>
+     On this website you will find all the important information: from the schedule and the location to travel and accommodation options.  
+     So feel free to check back from time to time.  
+     If you have any questions, just reach out to us.<br>
+     We can hardly wait to celebrate our wedding with you!<br><br>
+     <b> Kathrin & Fabian</b>`,
 
     // location page
     "location-heading": "Where should you go?",
@@ -70,7 +75,12 @@ const translations = {
     // welcome
     "welcome-heading": "Cześć, witaj!",
     "welcome-text":
-      "Bardzo się cieszymy, że przyjedziesz na nasze wesele! Ta strona zawiera przydatne informacje i aktualizacje. Jeśli masz pytania, daj nam znać!",
+      `Jesteśmy ogromnie szczęśliwi, że będziesz świętować z nami 18 kwietnia 2026 roku!<br>
+      Na tej stronie znajdziesz wszystkie najważniejsze informacje – od planu dnia i miejsca uroczystości po dojazd i noclegi.<br>
+      Aktualne informacje będą zamieszczane na stronie, dlatego warto tu zaglądać ponownie<br>
+      Jeśli masz pytania, po prostu daj nam znać, z radością pomożemy.<br>
+       Nie możemy się już doczekać wspólnego świętowania naszego ślubu!<br><br>
+       <b>Wasze myszki, Kathrin & Fabian</b>`,
 
     // location page
     "location-heading": "Dokąd powinniście iść?",
