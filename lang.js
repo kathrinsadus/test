@@ -146,3 +146,51 @@ const translations = {
     "event-party2-text": "Dla tych, którzy wciąż mają energię."
   }
 };
+// -----------------------------
+// Helpers
+// -----------------------------
+const DEFAULT_LANG = "de";
+const SUPPORTED = Object.keys(translations);
+
+function normalizeLang(lang) {
+  return SUPPORTED.includes(lang) ? lang : DEFAULT_LANG;
+}
+
+function setLanguage(lang) {
+  const chosen = normalizeLang(lang);
+  localStorage.setItem("lang", chosen);
+
+  // reflect on <html lang="…">
+  document.documentElement.setAttribute("lang", chosen);
+
+  // replace all elements with data-key
+  document.querySelectorAll("[data-key]").forEach((el) => {
+    const key = el.getAttribute("data-key");
+    const t = translations[chosen]?.[key];
+
+    if (t === undefined || t === null) {
+      // no translation -> leave original content
+      return;
+    }
+
+    // Allow HTML in translations (for <br>, links, etc.)
+    el.innerHTML = t;
+  });
+
+  // (Optional) highlight active flag if flags have data-lang attributes
+  document.querySelectorAll(".language-selector [data-lang]").forEach((img) => {
+    img.toggleAttribute("aria-current", img.getAttribute("data-lang") === chosen);
+  });
+}
+
+function switchLanguage(lang) {
+  setLanguage(lang);
+}
+
+// auto-init on load
+document.addEventListener("DOMContentLoaded", () => {
+  const saved = localStorage.getItem("lang") || DEFAULT_LANG;
+  setLanguage(saved);
+
+
+});
