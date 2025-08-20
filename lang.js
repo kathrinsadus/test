@@ -130,7 +130,7 @@ const translations = {
     "event-party-title": "Party",
     "event-party-text": "With musical contributions from the Sacred Cats Collective.",
     "event-party2-title": "Afterparty",
-    "event-party2-text": "For anyone still going strong."
+    "event-party2-text": "For anyone still going strong.",
 
     // info page 
     "information-heading": "Anything else to know?",
