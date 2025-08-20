@@ -34,6 +34,7 @@ const translations = {
     // timetable / schedule
     "page-title": "Ablauf",
     "schedule-heading": "Ablauf",
+    "preevent-date": "Freitag",
     "preevent-title": "Beisammensein",
     "preevent-text": "Für diejenigen, die bereits am Freitag anreisen, planen wir ein kleines Beisammensein.<br>Ort und Uhrzeit veröffentlichen wir hier noch. Ansonsten freuen wir uns darauf, euch am Samstag am Hohen Darsberg zu begrüßen.",
     "event-arrival-title": "Ankunft",
@@ -117,6 +118,7 @@ const translations = {
     "schedule-heading": "Schedule",
     "preevent-title": "Get-together",
     "preevent-text": "For those arriving on Friday, we’re planning a small get-together.<br>We’ll post the place and time here. Otherwise, we look forward to welcoming you on Saturday at Hohen Darsberg.",
+    "preevent-date": "Friday",
     "event-arrival-title": "Arrival",
     "event-arrival-text": "Grab some snacks and drinks and, if you like, check into your room.",
     "event-ceremony-title": "Ceremony",
@@ -196,6 +198,7 @@ const translations = {
     // timetable / schedule
     "page-title": "Plan dnia",
     "schedule-heading": "Plan dnia",
+    "preevent-date": "Piątek",
     "preevent-title": "Spotkanie dzień wcześniej",
     "preevent-text": "Dla osób przyjeżdżających w piątek planujemy kameralne spotkanie.<br>Miejsce i godzinę podamy tutaj. W sobotę z radością powitamy Was na Hohen Darsberg.",
     "event-arrival-title": "Przyjazd",
