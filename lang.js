@@ -103,14 +103,14 @@ const translations = {
     home: "Strona główna",
     info: "Informacje",
     schedule: "Plan dnia",
-    team: "Zespół",
+    team: "Drużyna druhen",
 
     // welcome
     "welcome-heading": "Cześć, witaj!",
     "welcome-text": `Jesteśmy ogromnie szczęśliwi, że będziesz świętować z nami 18 kwietnia 2026 roku!<br>
       Na tej stronie znajdziesz wszystkie najważniejsze informacje – od planu dnia i miejsca uroczystości po dojazd i noclegi.<br>
       Zachęcamy do regularnego odwiedzania strony, ponieważ treści będą na bieżąco aktualizowane.<br>
-      Jeśli masz pytania, po prostu daj nam znać – z radością pomożemy.<br>
+      Jeśli masz pytania, po prostu daj nam znać, z radością pomożemy.<br>
       Nie możemy się już doczekać wspólnego świętowania naszego ślubu!<br><br>
       <b>Kathrin &amp; Fabian</b>`,
 
@@ -143,7 +143,30 @@ const translations = {
     "event-party-title": "Przyjęcie",
     "event-party-text": "Z muzycznymi akcentami od Sacred Cats Collective.",
     "event-party2-title": "Afterparty",
-    "event-party2-text": "Dla tych, którzy wciąż mają energię."
+    "event-party2-text": "Dla tych, którzy wciąż mają energię.",
+
+///info page
+    "information-heading": "O czym jeszcze warto pamiętać?",
+    "info-intro": "Abyście byli jak najlepiej przygotowani, zebraliśmy tu kilka informacji:",
+    "info-form": `<strong>Ankieta:</strong> Przygotowaliśmy krótki 
+                  <a href="https://www.soscisurvey.de/project_miau25/" target="_blank" rel="noopener">formularz</a>. 
+                  Prosimy, poświęćcie chwilę na jego wypełnienie.  
+                  Chcemy tylko wiedzieć:
+                  <ul>
+                    <li>Czy przyjeżdżacie?</li>
+                    <li>Czy zostajecie na noc?</li>
+                    <li>Czy przy jedzeniu musimy coś uwzględnić?</li>
+                  </ul>
+                  Dziękujemy za wypełnienie, dzięki temu możemy wszystko lepiej zaplanować.`,
+    "info-stay": `<strong>Nocleg na miejscu:</strong> Nasza sala ma przytulne pokoje – idealne, aby po zabawie od razu pójść spać. 
+                  Jeśli chcecie zostać na noc, zaznaczcie to w ankiecie, a my zajmiemy się rezerwacją.`,
+    "info-parking": `<strong>Parking:</strong> Na miejscu dostępna jest wystarczająca liczba miejsc parkingowych.`,
+    "info-food": `<strong>Jedzenie i napoje:</strong> Chcemy, aby każdy miał coś odpowiedniego dla siebie. 
+                  W ankiecie możecie zaznaczyć, czy jecie wegetariańsko, wegańsko lub macie nietolerancje albo alergie. 
+                  Dzięki temu kuchnia będzie dobrze przygotowana.`,
+    "info-gifts": `<strong>Kwiaty więdną, wino nie.</strong> Jeśli planowaliście przynieść nam kwiaty, 
+                  ucieszymy się jeszcze bardziej z waszego ulubionego czerwonego wina (najlepiej z podpisaną etykietą). 
+                  Przy kieliszku wspomnimy o was, a wspomnienie pozostanie na dłużej.`
   }
 };
 // -----------------------------
