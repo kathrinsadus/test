@@ -47,7 +47,40 @@ const translations = {
     "event-party-title": "Party",
     "event-party-text": "Mit musikalischen Beiträgen vom Sacred Cats Collective.",
     "event-party2-title": "Party 2.0",
-    "event-party2-text": "Für alle, die noch Energie haben."
+    "event-party2-text": "Für alle, die noch Energie haben.",
+
+    // info page 
+     "information-heading": "Was gibt es noch zu beachten?",
+    "info-intro":
+      "Damit ihr bestens vorbereitet seid, haben wir hier ein paar Infos für euch gesammelt:",
+    "info-form": `
+      <strong>Fragebogen:</strong> Damit wir alle wichtigen Informationen erhalten, haben wir einen kurzen 
+      <a class="intext_link" href="https://www.soscisurvey.de/project_miau25/" target="_blank" rel="noopener">Fragebogen</a> vorbereitet. 
+      Es ist derselbe Fragebogen, den ihr bereits mit der Einladung bekommen habt. Falls ihr ihn noch nicht ausgefüllt habt, nehmt euch bitte einen Moment Zeit dafür.
+      Darin möchten wir nur wissen:
+      <ul>
+        <li>Kommt ihr?</li>
+        <li>Bleibt ihr über Nacht?</li>
+        <li>Gibt es beim Essen etwas zu beachten?</li>
+      </ul>
+      Vielen Dank fürs Ausfüllen, so können wir optimal planen.
+    `,
+    "info-stay": `
+      <strong>Übernachtung vor Ort:</strong> Unsere Location hat gemütliche Zimmer – perfekt, um nach der Feier einfach ins Bett zu fallen.
+      Wenn ihr übernachten möchtet, sagt uns das im Fragebogen, dann kümmern wir uns um die Reservierung.
+    `,
+    "info-parking": `
+      <strong>Parkplätze:</strong> An der Location stehen ausreichend Parkplätze zur Verfügung.
+    `,
+    "info-food": `
+      <strong>Essen &amp; Getränke:</strong> Wir möchten, dass für jede und jeden etwas Passendes dabei ist.
+      Im Fragebogen könnt ihr angeben, ob ihr vegetarisch, vegan esst oder bestimmte Unverträglichkeiten und Allergien habt.
+      So kann die Küche bestens vorbereitet werden.
+    `,
+    "info-gifts": `
+      <strong>Blumen verwelken, Wein nicht.</strong> Falls ihr daran gedacht habt, uns Blumen mitzubringen, freuen wir uns stattdessen über euren Lieblings-Rotwein (gerne mit Namen versehen).
+      So können wir bei einem gemütlichen Glas an euch denken, und die Erinnerung hält ein wenig länger.
+    `,
   },
 
   en: {
@@ -96,6 +129,39 @@ const translations = {
     "event-party-text": "With musical contributions from the Sacred Cats Collective.",
     "event-party2-title": "Afterparty",
     "event-party2-text": "For anyone still going strong."
+
+    // info page 
+    "information-heading": "Anything else to know?",
+    "info-intro":
+      "To help you prepare, we've gathered a few useful details:",
+    "info-form": `
+      <strong>Questionnaire:</strong> To collect all essential information, we've prepared a short 
+      <a class="intext_link" href="https://www.soscisurvey.de/project_miau25/" target="_blank" rel="noopener">questionnaire</a>.
+      It's the same questionnaire you already received with the invitation. If you haven't filled it out yet, please take a moment to do so.
+      We only ask:
+      <ul>
+        <li>Will you be attending?</li>
+        <li>Will you stay overnight?</li>
+        <li>Is there anything we should consider for meals?</li>
+      </ul>
+      Thank you for completing it — it really helps us plan.
+    `,
+    "info-stay": `
+      <strong>Overnight on site:</strong> Our venue offers cozy rooms — perfect for falling straight into bed after the celebration.
+      If you'd like to stay overnight, let us know in the questionnaire and we'll take care of the reservation.
+    `,
+    "info-parking": `
+      <strong>Parking:</strong> There is ample parking available at the venue.
+    `,
+    "info-food": `
+      <strong>Food &amp; Drinks:</strong> We want to make sure there's something suitable for everyone.
+      In the questionnaire, you can tell us if you eat vegetarian or vegan, or if you have any intolerances or allergies,
+      so the kitchen can prepare accordingly.
+    `,
+    "info-gifts": `
+      <strong>Flowers wilt, wine doesn't.</strong> If you were thinking of bringing us flowers, we'd be delighted instead with your favorite red wine (labeled with your name).
+      That way, we can think of you over a cozy glass — and the memory lasts a little longer.
+    `
   },
 
   pl: {
@@ -148,9 +214,10 @@ const translations = {
 ///info page
     "information-heading": "O czym jeszcze warto pamiętać?",
     "info-intro": "Abyście byli jak najlepiej przygotowani, zebraliśmy tu kilka informacji:",
-    "info-form": `<strong>Ankieta:</strong> Przygotowaliśmy krótki 
-                  <a href="https://www.soscisurvey.de/project_miau25/" target="_blank" rel="noopener">formularz</a>. 
-                  Prosimy, poświęćcie chwilę na jego wypełnienie.  
+    "info-form": ` <strong>Ankieta:</strong> Abyśmy mogli zebrać wszystkie ważne informacje, przygotowaliśmy krótką 
+    <a class="intext_link" href="https://www.soscisurvey.de/project_miau25/" target="_blank" rel="noopener">ankietę</a>. 
+    To ta sama ankieta, którą otrzymaliście już wraz z zaproszeniem. Jeśli jeszcze jej nie wypełniliście, 
+    poświęćcie proszę chwilę, aby to zrobić.  
                   Chcemy tylko wiedzieć:
                   <ul>
                     <li>Czy przyjeżdżacie?</li>
