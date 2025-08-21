@@ -19,7 +19,7 @@ const translations = {
                     <b>Eure Mäuse, Kathrin & Fabian</b>`,
 
     // location page
-    "location-heading": "Wo müsst ihr hin?",
+    "location-heading": "Wo findet die Hochzeit statt?",
     "location-description": `Die Adresse lautet:<br>
     Außerhalb 1 <br>
     69239 Neckarsteinach <br><br>
@@ -85,7 +85,9 @@ const translations = {
 
     // team page 
     "team-heading":  "Unser Team",
-    "team-intro":  "Hi, welcome!"
+    "team-intro": `In alignment with our holistic Life Strategy and with a clear focus on sustainable Relationship Synergies, we are excited to introduce our high-caliber Key Stakeholders in the field of the Lifetime Partnership. 
+    These Subject Matter Experts are the central Enablers of our Wedding Operations and, through their 360° Commitment, guarantee not only seamless Workflows but also a maximized, fully optimized End-to-End Experience. 
+    Without them, no us. Let’s build a future together.`
 
   },
 
@@ -106,7 +108,7 @@ const translations = {
      <b>Kathrin & Fabian</b>`,
 
     // location page
-    "location-heading": "Where should you go?",
+    "location-heading": "Where will the wedding take place?",
     "location-description": `The address is:<br>
       Außerhalb 1 <br>
       69239 Neckarsteinach <br><br>
@@ -171,7 +173,9 @@ const translations = {
     `,
      // team page 
     "team-heading":  "Our Team",
-    "team-intro":  "Hi, welcome!"
+    "team-intro":  `In alignment mit unserer ganzheitlichen Life-Strategy und einem klaren Fokus auf nachhaltige Relationship-Synergien, freuen wir uns, euch unsere hochkarätigen Key Stakeholder im Bereich Lifetime Partnership vorzustellen. 
+    Diese Subject Matter Experts sind die zentralen Enabler unserer Wedding-Operations und garantieren durch ihr 360° Commitment nicht nur reibungslose Workflows, sondern auch eine maximal optimierte end-to-end experience. 
+    Without them, no us. Let‘s build a future together.`
   },
 
   pl: {
@@ -179,7 +183,7 @@ const translations = {
     home: "Strona główna",
     info: "Informacje",
     schedule: "Plan dnia",
-    team: "Drużyna druhen",
+    team: "Nasze świadkowe",
 
     // welcome
     "welcome-heading": "Cześć, witaj!",
@@ -191,7 +195,7 @@ const translations = {
       <b>Kathrin &amp; Fabian</b>`,
 
     // location page
-    "location-heading": "Dokąd powinniście iść?",
+    "location-heading": "Gdzie odbędzie się ślub?",
     "location-description": `Adres:<br>
       Außerhalb 1 <br>
       69239 Neckarsteinach <br><br>
@@ -248,7 +252,9 @@ const translations = {
 
     // team page 
     "team-heading":  "Nasze świadkowe",
-    "team-intro":  "Hi, welcome!"
+    "team-intro":  `W zgodzie z naszą holistyczną Life Strategy oraz z wyraźnym fokusem na sustainable Relationship Synergies z dumą prezentujemy naszych high-caliber Key Stakeholders w obszarze Lifetime Partnership.
+    Ci Subject Matter Experts to centralni Enablers naszych Wedding Operations i dzięki swojemu 360° Commitment gwarantują nie tylko seamless Workflows, lecz także maksymalnie zoptymalizowaną End-to-End Experience.
+    Without them, no us. Let’s build a future together.`
   }
 };
 // -----------------------------
