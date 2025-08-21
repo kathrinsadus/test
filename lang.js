@@ -82,6 +82,11 @@ const translations = {
       <strong>Blumen verwelken, Wein nicht.</strong> Falls ihr daran gedacht habt, uns Blumen mitzubringen, freuen wir uns stattdessen über euren Lieblings-Rotwein (gerne mit Namen versehen).
       So können wir bei einem gemütlichen Glas an euch denken, und die Erinnerung hält ein wenig länger.
     `,
+
+    // team page 
+    "team-heading":  "Unser Team",
+    "team-intro":  "Hi, welcome!"
+
   },
 
   en: {
@@ -163,7 +168,10 @@ const translations = {
     "info-gifts": `
       <strong>Flowers wilt, wine doesn't.</strong> If you were thinking of bringing us flowers, we'd be delighted instead with your favorite red wine (labeled with your name).
       That way, we can think of you over a cozy glass — and the memory lasts a little longer.
-    `
+    `,
+     // team page 
+    "team-heading":  "Our Team",
+    "team-intro":  "Hi, welcome!"
   },
 
   pl: {
@@ -236,7 +244,11 @@ const translations = {
                   Dzięki temu kuchnia będzie dobrze przygotowana.`,
     "info-gifts": `<strong>Kwiaty więdną, wino nie.</strong> Jeśli planowaliście przynieść nam kwiaty, 
                   ucieszymy się jeszcze bardziej z waszego ulubionego czerwonego wina (najlepiej z podpisaną etykietą). 
-                  Przy kieliszku wspomnimy o was, a wspomnienie pozostanie na dłużej.`
+                  Przy kieliszku wspomnimy o was, a wspomnienie pozostanie na dłużej.`,
+
+    // team page 
+    "team-heading":  "Nasze świadkowe",
+    "team-intro":  "Hi, welcome!"
   }
 };
 // -----------------------------
