@@ -8,10 +8,11 @@ const translations = {
     info: "Wissenswertes",
     schedule: "Ablauf",
     team: "Team",
+    location: "Location",
 
     // welcome (Startseite)
     "welcome-heading": "Hallo, willkommen!",
-    "welcome-text": `Wir freuen uns sehr, dass du am 18. April 2026 mit uns feiern wirst.<br>
+    "welcome-text": `Wir freuen uns sehr, dass du am <b>18. April 2026</b> mit uns feiern wirst.<br>
                     Auf dieser Website findest du alle wichtigen Informationen: vom Ablauf über die Location bis zu Anreise- und Übernachtungsmöglichkeiten.
                     Schau also gerne immer mal wieder vorbei.
                     Und falls du Fragen hast, melde dich einfach bei uns, wir helfen gerne weiter.<br>
@@ -29,7 +30,7 @@ const translations = {
       Die Einfahrt befindet sich auf der linken Seite. Es stehen reichlich Parkplätze zur Verfügung.
       Die Location bietet außerdem Schlafplätze an. Falls ihr gerne über Nacht bleiben möchtet, gebt uns bitte über die Umfrage Bescheid, damit wir entsprechend planen können.`,
     "location-bus-heading": "Anreise mit der Bahn<br>",
-    "location-bus": "Wenn ihr mit den öffentlichen Verkehrsmitteln anreisen wollt, könnt ihr die S-Bahnen (S1 und S2) nach Neckarsteinach nehmen. Gebt uns gerne Bescheid, damit wir euch helfen können, komfortabel zur Location zu kommen.",
+    "location-bus": "Wenn ihr mit den öffentlichen Verkehrsmitteln anreisen wollt, könnt ihr die S-Bahnen (S1 und S2) von Heidelberg nach Neckarsteinach nehmen. Gebt uns gerne Bescheid, damit wir euch helfen können, komfortabel zur Location zu kommen.",
 
     // timetable / schedule
     "page-title": "Ablauf",
@@ -97,11 +98,13 @@ const translations = {
     info: "Information",
     schedule: "Schedule",
     team: "Team",
+    location: "Location",
+
 
     // welcome
     "welcome-heading": "Hi, welcome!",
-    "welcome-text": `We are so happy that you will celebrate with us on April 18, 2026.<br>
-     On this website you will find all the important information: from the schedule and the location to travel and accommodation options.
+    "welcome-text": `We are so happy that you will celebrate with us on <b>April 18, 2026.</b><br>
+     On this website you will find all the important information: from the schedule, the location, and accommodation options.
      Feel free to check back from time to time.
      If you have any questions, just reach out to us.<br>
      We can hardly wait to celebrate our wedding with you!<br><br>
@@ -114,11 +117,11 @@ const translations = {
       69239 Neckarsteinach <br><br>
       You can take a look at the <a class="intext_link" href="https://tour.hoher-darsberg.de/">venue</a> in advance.<br>`,
     "location-car-heading": "Arrival by car<br>",
-    "location-car": `For your satnav, it's best to enter <b>Darsbergerstraße 127</b>.
+    "location-car": `For your Google maps, it's best to enter <b>Darsbergerstraße 127</b>.
       The entrance is on the left-hand side. There is plenty of parking.
       The venue also offers rooms. If you’d like to stay overnight, please let us know via the survey so we can plan accordingly.`,
     "location-bus-heading": "Arrival by train<br>",
-    "location-bus": "You can take the S-Bahn (S1 or S2) to Neckarsteinach. Let us know and we’ll help you get to the venue comfortably.",
+    "location-bus": "You can take the S-Bahn (S1 or S2) from Heidelberg to Neckarsteinach. Let us know and we’ll help you get to the venue comfortably.",
 
     // timetable / schedule
     "page-title": "Schedule",
@@ -183,19 +186,20 @@ const translations = {
     home: "Strona główna",
     info: "Informacje",
     schedule: "Plan dnia",
-    team: "Nasze świadkowe",
+    team: "Nasi świadkowie",
+    location: "Miejsce uroczystości",
 
     // welcome
     "welcome-heading": "Cześć, witaj!",
-    "welcome-text": `Jesteśmy ogromnie szczęśliwi, że będziesz świętować z nami 18 kwietnia 2026 roku!<br>
+    "welcome-text": `Jesteśmy ogromnie szczęśliwi, że będziesz świętować z nami <b>18 kwietnia 2026 roku</b>!<br>
       Na tej stronie znajdziesz wszystkie najważniejsze informacje – od planu dnia i miejsca uroczystości po dojazd i noclegi.<br>
       Zachęcamy do regularnego odwiedzania strony, ponieważ treści będą na bieżąco aktualizowane.<br>
-      Jeśli masz pytania, po prostu daj nam znać, z radością pomożemy.<br>
+      Jeśli masz pytania, po prostu daj nam znać, chętnie pomożemy.<br>
       Nie możemy się już doczekać wspólnego świętowania naszego ślubu!<br><br>
       <b>Kathrin &amp; Fabian</b>`,
 
     // location page
-    "location-heading": "Gdzie odbędzie się ślub?",
+    "location-heading": "Gdzie odbędzie się ślub i wesele?",
     "location-description": `Adres:<br>
       Außerhalb 1 <br>
       69239 Neckarsteinach <br><br>
@@ -205,7 +209,7 @@ const translations = {
       Wjazd znajduje się po lewej stronie. Na miejscu jest dużo miejsc parkingowych.
       Obiekt oferuje też noclegi — jeśli chcesz zostać na noc, daj znać w ankiecie.`,
     "location-bus-heading": "Dojazd koleją<br>",
-    "location-bus": "Możecie dojechać kolejką S-Bahn (S1 lub S2) do Neckarsteinach. Dajcie nam znać, a pomożemy wygodnie dotrzeć na miejsce.",
+    "location-bus": "Możecie dojechać kolejką S-Bahn (S1 lub S2) z Heidelbergu do Neckarsteinach. Dajcie nam znać, a pomożemy wygodnie dotrzeć na miejsce.",
 
     // timetable / schedule
     "page-title": "Plan dnia",
