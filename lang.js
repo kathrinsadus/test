@@ -86,9 +86,9 @@ const translations = {
 
     // team page 
     "team-heading":  "Unser Team",
-    "team-intro": `In alignment with our holistic Life Strategy and with a clear focus on sustainable Relationship Synergies, we are excited to introduce our high-caliber Key Stakeholders in the field of the Lifetime Partnership. 
-    These Subject Matter Experts are the central Enablers of our Wedding Operations and, through their 360° Commitment, guarantee not only seamless Workflows but also a maximized, fully optimized End-to-End Experience. 
-    Without them, no us. Let’s build a future together.`
+    "team-intro": `In alignment mit unserer ganzheitlichen Life-Strategy und einem klaren Fokus auf nachhaltige Relationship-Synergien, freuen wir uns, euch unsere hochkarätigen Key Stakeholder im Bereich Lifetime Partnership vorzustellen. 
+    Diese Subject Matter Experts sind die zentralen Enabler unserer Wedding-Operations und garantieren durch ihr 360° Commitment nicht nur reibungslose Workflows, sondern auch eine maximal optimierte end-to-end experience. 
+    Without them, no us. Let‘s build a future together.`
 
   },
 
@@ -176,9 +176,9 @@ const translations = {
     `,
      // team page 
     "team-heading":  "Our Team",
-    "team-intro":  `In alignment mit unserer ganzheitlichen Life-Strategy und einem klaren Fokus auf nachhaltige Relationship-Synergien, freuen wir uns, euch unsere hochkarätigen Key Stakeholder im Bereich Lifetime Partnership vorzustellen. 
-    Diese Subject Matter Experts sind die zentralen Enabler unserer Wedding-Operations und garantieren durch ihr 360° Commitment nicht nur reibungslose Workflows, sondern auch eine maximal optimierte end-to-end experience. 
-    Without them, no us. Let‘s build a future together.`
+    "team-intro":  `In alignment with our holistic Life Strategy and with a clear focus on sustainable Relationship Synergies, we are excited to introduce our high-caliber Key Stakeholders in the field of the Lifetime Partnership. 
+    These Subject Matter Experts are the central Enablers of our Wedding Operations and, through their 360° Commitment, guarantee not only seamless Workflows but also a maximized, fully optimized End-to-End Experience. 
+    Without them, no us. Let’s build a future together.`
   },
 
   pl: {
