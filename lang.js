@@ -251,7 +251,7 @@ const translations = {
                 Chcemy, aby każdy znalazł coś odpowiedniego dla siebie, dlatego w ankiecie możecie zaznaczyć, czy jecie wegetariańsko, wegańsko lub czy macie jakieś nietolerancje albo alergie. Dzięki temu kuchnia będzie dobrze przygotowana.`,
     "info-gifts": `<strong>Kwiaty więdną, wino nie.</strong> Jeśli planowaliście przynieść nam kwiaty, 
                   ucieszymy się jeszcze bardziej z waszego ulubionego czerwonego wina (najlepiej z podpisaną etykietą). 
-                  Przy kieliszku wspomnimy o was, a wspomnienie pozostanie na dłużej.`,
+                  Przy kieliszku wspomnimy o was, a wspomnienie pozostanie na dłużej. Im lepsze wino, tym lepsze wspomnienia`,
 
     // team page 
     "team-heading":  "Nasze świadkowe",
