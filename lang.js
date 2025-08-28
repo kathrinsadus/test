@@ -241,24 +241,21 @@ const translations = {
                   <ul>
                     <li>Czy przyjeżdżacie?</li>
                     <li>Czy zostajecie na noc?</li>
-                    <li>Czy przy jedzeniu musimy coś uwzględnić?</li>
+                    <li>Czy przy wyborze menu musimy coś szczególnego uwzględnić?</li>
                   </ul>
                   Dziękujemy za wypełnienie, dzięki temu możemy wszystko lepiej zaplanować.`,
-    "info-stay": `<strong>Nocleg na miejscu:</strong> Nasza sala ma przytulne pokoje – idealne, aby po zabawie od razu pójść spać. 
+    "info-stay": `<strong>Nocleg na miejscu:</strong> Nasza sala ma przytulne pokoje – idealne, aby po zabawie od razu udać się w objęcia Morfeusza. 
                   Jeśli chcecie zostać na noc, zaznaczcie to w ankiecie, a my zajmiemy się rezerwacją.`,
     "info-parking": `<strong>Parking:</strong> Na miejscu dostępna jest wystarczająca liczba miejsc parkingowych.`,
-    "info-food": `<strong>Jedzenie i napoje:</strong> Chcemy, aby każdy miał coś odpowiedniego dla siebie. 
-                  W ankiecie możecie zaznaczyć, czy jecie wegetariańsko, wegańsko lub macie nietolerancje albo alergie. 
-                  Dzięki temu kuchnia będzie dobrze przygotowana.`,
+    "info-food": `<strong>Menu:</strong> W trosce o przyszłość naszej planety i w duchu wartości, które od lat są nam bliskie, zdecydowaliśmy się, aby podczas naszego wesela serwowane były wyłącznie dania bezmięsne. Wierzymy, że wspólnym świętowaniem możemy nie tylko dzielić się szczęściem, lecz także wnieść mały wkład w ochronę klimatu 🌍🌱.
+                Chcemy, aby każdy znalazł coś odpowiedniego dla siebie, dlatego w ankiecie możecie zaznaczyć, czy jecie wegetariańsko, wegańsko lub czy macie jakieś nietolerancje albo alergie. Dzięki temu kuchnia będzie dobrze przygotowana.`,
     "info-gifts": `<strong>Kwiaty więdną, wino nie.</strong> Jeśli planowaliście przynieść nam kwiaty, 
                   ucieszymy się jeszcze bardziej z waszego ulubionego czerwonego wina (najlepiej z podpisaną etykietą). 
                   Przy kieliszku wspomnimy o was, a wspomnienie pozostanie na dłużej.`,
 
     // team page 
     "team-heading":  "Nasze świadkowe",
-    "team-intro":  `W zgodzie z naszą holistyczną Life Strategy oraz z wyraźnym fokusem na sustainable Relationship Synergies z dumą prezentujemy naszych high-caliber Key Stakeholders w obszarze Lifetime Partnership.
-    Ci Subject Matter Experts to centralni Enablers naszych Wedding Operations i dzięki swojemu 360° Commitment gwarantują nie tylko seamless Workflows, lecz także maksymalnie zoptymalizowaną End-to-End Experience.
-    Without them, no us. Let’s build a future together.`
+    "team-intro":  `W zgodzie z naszą holistyczną Life-Strategią i z wyraźnym naciskiem na zrównoważone Relationship-Synergie, z radością przedstawiamy Wam naszych najwyższej klasy Key Stakeholderów w obszarze Lifetime Partnership. Ci Subject Matter Experci są kluczowymi Enablerami naszych Wedding-Operations i dzięki swojemu 360° Commitmentowi gwarantują nie tylko płynne Workflows, ale także maksymalnie zoptymalizowaną End-to-End Experience.Without them, no us. Let’s build a future together.`
   }
 };
 // -----------------------------
