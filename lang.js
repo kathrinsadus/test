@@ -117,7 +117,7 @@ const translations = {
       69239 Neckarsteinach <br><br>
       You can take a look at the <a class="intext_link" href="https://tour.hoher-darsberg.de/">venue</a> in advance.<br>`,
     "location-car-heading": "Arrival by car<br>",
-    "location-car": `For your Google maps, it's best to enter <b>Darsbergerstraße 127</b>.
+    "location-car": `For Google maps / apple maps or any other navigation tool, it's best to enter <b>Darsbergerstraße 127</b>.
       The entrance is on the left-hand side. There is plenty of parking.
       The venue also offers rooms. If you’d like to stay overnight, please let us know via the survey so we can plan accordingly.`,
     "location-bus-heading": "Arrival by train<br>",
