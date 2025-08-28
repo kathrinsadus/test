@@ -30,7 +30,7 @@ const translations = {
       Die Einfahrt befindet sich auf der linken Seite. Es stehen reichlich Parkplätze zur Verfügung.
       Die Location bietet außerdem Schlafplätze an. Falls ihr gerne über Nacht bleiben möchtet, gebt uns bitte über die Umfrage Bescheid, damit wir entsprechend planen können.`,
     "location-bus-heading": "Anreise mit der Bahn<br>",
-    "location-bus": "Wenn ihr mit den öffentlichen Verkehrsmitteln anreisen wollt, könnt ihr die S-Bahnen (S1 und S2) von Heidelberg nach Neckarsteinach nehmen. Gebt uns gerne Bescheid, damit wir euch helfen können, komfortabel zur Location zu kommen.",
+    "location-bus": "Wenn ihr mit den öffentlichen Verkehrsmitteln anreisen wollt, könnt ihr die S-Bahnen (S1 und S2) von Heidelberg nach Neckarsteinach nehmen. Gebt uns gerne zeitnah Bescheid, damit wir euch helfen können, komfortabel zur Location zu kommen.",
 
     // timetable / schedule
     "page-title": "Ablauf",
